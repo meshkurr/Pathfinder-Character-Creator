@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Fighter",
+    "keyAbilityOne": "strength",
+    "keyAbilityTwo": "dexterity",
+    "hitPoints": 10,
+    "skills": [
+      {
+        "name": "fortitude",
+        "trainingLevel": 2
+      },
+      {
+        "name": "reflex",
+        "trainingLevel": 2
+      },
+      {
+        "name": "will",
+        "trainingLevel": 1
+      }
+    ]
+
+  }
+]

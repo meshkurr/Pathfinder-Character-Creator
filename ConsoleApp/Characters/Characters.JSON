@@ -1,7 +1,15 @@
 [
   {
     "name": "Template",
-    "pathfinderClass": "Fighter",
+    "pathfinderClass": {
+      "name": "Fighter",
+      "spellcastingType": null,
+      "keyAbilityOne": null,
+      "keyAbilityTwo": null,
+      "hitPoints": 0,
+      "skills": null,
+      "keyAbilityScore": null
+    },
     "level": 1,
     "strength": 10,
     "dexterity": 10,
@@ -9,6 +17,7 @@
     "intelligence": 10,
     "wisdom": 10,
     "initiative": 10,
+    "charisma": 10,
     "skills": [
       {
         "name": "perception",
@@ -94,102 +103,15 @@
         "attribute": "dexterity",
         "modifier": 1
       }
-    ]
-  },
-  {
-    "name": "John Smith",
-    "pathfinderClass": "Ranger",
-    "level": 1,
-    "strength": 10,
-    "dexterity": 10,
-    "constitution": 10,
-    "intelligence": 10,
-    "wisdom": 10,
-    "initiative": 10,
-    "skills": [
+    ],
+    "classFeats": [
       {
-        "name": "perception",
-        "trainingLevel": 0,
-        "attribute": "wisdom",
-        "modifier": 1
-      },
-      {
-        "name": "acrobatics",
-        "trainingLevel": 0,
-        "attribute": "dexterity",
-        "modifier": 1
-      },
-      {
-        "name": "athletics",
-        "trainingLevel": 0,
-        "attribute": "strength",
-        "modifier": 1
-      },
-      {
-        "name": "crafting",
-        "trainingLevel": 0,
-        "attribute": "intelligence",
-        "modifier": 1
-      },
-      {
-        "name": "deception",
-        "trainingLevel": 0,
-        "attribute": "charisma",
-        "modifier": 1
-      },
-      {
-        "name": "diplomacy",
-        "trainingLevel": 0,
-        "attribute": "intimidation",
-        "modifier": 1
-      },
-      {
-        "name": "medicine",
-        "trainingLevel": 0,
-        "attribute": "wisdom",
-        "modifier": 1
-      },
-      {
-        "name": "nature",
-        "trainingLevel": 0,
-        "attribute": "wisdom",
-        "modifier": 1
-      },
-      {
-        "name": "occultism",
-        "trainingLevel": 0,
-        "attribute": "intelligence",
-        "modifier": 1
-      },
-      {
-        "name": "religion",
-        "trainingLevel": 0,
-        "attribute": "wisdom",
-        "modifier": 1
-      },
-      {
-        "name": "society",
-        "trainingLevel": 0,
-        "attribute": "intelligence",
-        "modifier": 1
-      },
-      {
-        "name": "stealth",
-        "trainingLevel": 0,
-        "attribute": "dexterity",
-        "modifier": 1
-      },
-      {
-        "name": "survival",
-        "trainingLevel": 0,
-        "attribute": "wisdom",
-        "modifier": 1
-      },
-      {
-        "name": "thievery",
-        "trainingLevel": 0,
-        "attribute": "dexterity",
-        "modifier": 1
+        "name": "power attack",
+        "level": 1,
+        "sourceClass": "fighter",
+        "hasActions": true,
+        "actionType": "action",
+        "actionCount": 2
       }
     ]
   }
