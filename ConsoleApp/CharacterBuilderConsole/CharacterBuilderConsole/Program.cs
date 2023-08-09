@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 using System.IO;
 using Newtonsoft.Json;
 
+//TODO
+    //Fix data storage.
+        // Now, we should hold our data in seperate JSON files and use a method to extract the names of data in a particliar folder
+    //Finish PathfinderClass class structure.  Slowly adding functionality does not work.  We need to add everything at once, so do some research
+
 namespace CharacterBuilderConsole
 {
     class Program
